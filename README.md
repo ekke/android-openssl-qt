@@ -29,12 +29,14 @@ Clone this repo to a location you can refer to from your Qt projects.
 
 Open Terminal and do:
 
+```
 cd <path/to/this/repo>
 chmod 755 ./build-all-arch.sh
 chmod 755 ./setenv-android-mod.sh
 export ANDROID_NDK_ROOT=/your/path/to/_android/android-ndk-r10e
 export OPENSSL_VERSION="openssl-1.0.2k"
 ./build-all-arch.sh
+```
 
 ## Modify .pro
 insert this line into your .pro
@@ -44,7 +46,9 @@ include(android-openssl.pri)
 ## copy android-openssl.pri
 copy this .pri into your projects (don't forget to adjust the path)
 
+```
 android {
   ANDROID_EXTRA_LIBS += $$PWD/my/path/to/prebuilt/armeabi-v7a/libcrypto.so
   ANDROID_EXTRA_LIBS += $$PWD/my/path/to/android-openssl/prebuilt/armeabi-v7a/libssl.so
 }
+```
