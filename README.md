@@ -41,7 +41,9 @@ export OPENSSL_VERSION="openssl-1.0.2k"
 ## Modify .pro
 insert this line into your .pro
 
+```
 include(android-openssl.pri)
+```
 
 ## copy android-openssl.pri
 copy this .pri into your projects (don't forget to adjust the path)
