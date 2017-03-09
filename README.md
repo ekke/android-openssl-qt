@@ -12,12 +12,14 @@ unknown argument: '-mandroid'
 
 see also QTBUG-59375  https://bugreports.qt.io/browse/QTBUG-59375 
 
-thx Marco Piccolino and Roman Pasechnik
-in this repo I found the needed scripts to generate the openssl libraries by myself.
-https://github.com/orangefour/android-openssl 
-That repo itself is based on Android NDK openssl build script for original repository(https://www.openssl.org/)
-see details : http://wiki.openssl.org/index.php/Android 
+## Thanks
+>thx Marco Piccolino and Roman Pasechnik
+>in this repo I found the needed scripts to generate the openssl libraries by myself.
+>https://github.com/orangefour/android-openssl 
+>That repo itself is based on Android NDK openssl build script for original repository(https://www.openssl.org/)
+>see details : http://wiki.openssl.org/index.php/Android 
 
+## scripts
 These scripts do all for you from downloading and extracting openssl and generating libs for x86 and armeabi-v7a
 
 I'm not providing any prebuilt .so here as you may found in other repos at github,
