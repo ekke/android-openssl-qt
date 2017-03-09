@@ -1,0 +1,7 @@
+# change pathes
+cd /daten/_qt_workspaces/android-openssl-qt
+chmod 755 ./build-all-arch.sh
+chmod 755 ./setenv-android-mod.sh
+export ANDROID_NDK_ROOT=/daten/_android/android-ndk-r10e
+export OPENSSL_VERSION="openssl-1.0.2k"
+./build-all-arch.sh
